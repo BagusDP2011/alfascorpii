@@ -1,5 +1,5 @@
-import { Box, Button, Stack, Text, Image, HStack } from "@chakra-ui/react";
-// import bg from "../assets/toko.jpg";
+import { Box, Button, Stack, Text, Image, HStack, VStack } from "@chakra-ui/react";
+import bg from "../assets/bg.png";
 import "../App.css";
 
 const FirstPage = () => {
@@ -14,15 +14,13 @@ const FirstPage = () => {
         {/* <Box  /> */}
         <HStack alignSelf={"left"} spacing={{ sm: 2, md: 3, lg: 4 }}>
           <Image
-            // src={bg}
-            layout="fill"
+            src={bg}
             alt="toko"
-            objectFit="cover"
             width={{ sm: "25%", md: '30%', lg: "50%" }}
             height="60%"
           />
 
-          <Stack alignSelf="center" spacing={{ sm: 2, md: 3, lg: 4 }}>
+          <Stack alignSelf="center" textAlign={"center"} spacing={{ sm: 2, md: 3, lg: 4 }}>
             <Text
               position="relative"
               color="black"
@@ -43,15 +41,19 @@ const FirstPage = () => {
             >
               PT. ALFA SCORPII
             </Text>
+            <VStack textAlign={"left"}>
             <Text
-              position="relative"
+              // position="relative"
               color="black"
               fontSize={{ lg: "lg", md: "sm" }}
               fontFamily="Inter"
               fontWeight="medium"
             >
-              Alamat goes here
+              Contact Information:
             </Text>
+            <Text><a href="http://wa.me/+6281278732817">0812-7873-2817 (Bagus)</a></Text>
+            <Text><a href="http://wa.me/+6282284257160">0822-8425-7160 (Danny)</a></Text>
+            </VStack>
             <Button
               onClick={() =>
                 window.open("https://goo.gl/maps/WvokCmzr3GYHRkSu9")

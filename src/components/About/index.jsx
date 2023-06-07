@@ -11,7 +11,7 @@ const About = () => {
       <Box backgroundColor="gray.400">
         <Container
           maxW={{ lg: "container.lg", base: "container.sm" }}
-          py={{ lg: "32", base: "14" }}
+          py={{ lg: "50px", base: "30px" }}
         >
           <Text fontSize="3xl" fontWeight="bold">
             Lokasi Cabang:

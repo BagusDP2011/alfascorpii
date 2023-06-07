@@ -36,15 +36,15 @@ const Collection = () => {
         py={{ lg: "32", base: "14" }}
       >
         <Text
-          mb={{ lg: "10", base: "4" }}
           fontSize="3xl"
           fontWeight="extrabold"
           textTransform="uppercase"
         >
           Koleksi YAMAHA
         </Text>
+        <div id="maxi">
         <Text
-          paddingTop={"50px"}
+          paddingTop={"20px"}
           mb={{ lg: "10", base: "4" }}
           fontSize="3xl"
           fontWeight="extrabold"
@@ -80,6 +80,9 @@ const Collection = () => {
             <Text>Rp. 36.494.000 </Text>
          </GridItem>
         </Grid>
+        </div>
+        <div id="classy">
+
         <Text
           paddingTop={"50px"}
           mb={{ lg: "10", base: "4" }}
@@ -102,27 +105,29 @@ const Collection = () => {
             <Image src={gflux} alt="Classy Grand Filano Lux"/>
             <Text fontWeight={"semibold"}>Grand Filano Lux</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 27.200.000 </Text>
          </GridItem>
           <GridItem>
             <Image src={gfneo} alt="Classy Grand Filano Neo"/>
             <Text fontWeight={"semibold"}>Grand Filano Neo</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 26.700.000 </Text>
          </GridItem>
           <GridItem>
             <Image src={flux} alt="Classy Fazzio"/>
             <Text fontWeight={"semibold"}>Fazzio Lux</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 23.327.000 </Text>
          </GridItem>
           <GridItem>
             <Image src={fneo} alt="Classy Fazzio"/>
             <Text fontWeight={"semibold"}>Fazzio Neo</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 22.922.000 </Text>
          </GridItem>
         </Grid>
+        </div>
+        <div id="matic">
         <Text
           paddingTop={"50px"}
           mb={{ lg: "10", base: "4" }}
@@ -145,39 +150,42 @@ const Collection = () => {
             <Image src={mfg} alt="Matic Fino Grande"/>
             <Text fontWeight={"semibold"}>Fino Grande</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 21.621.500 </Text>
          </GridItem>
           <GridItem>
             <Image src={mfp} alt="Matic Fino Premium"/>
             <Text fontWeight={"semibold"}>Fino Premium</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 20.621.500 </Text>
          </GridItem>
           <GridItem>
             <Image src={mfs} alt="Matic Fino Sporty"/>
             <Text fontWeight={"semibold"}>Fino Sporty</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 20.471.500 </Text>
          </GridItem>
           <GridItem>
             <Image src={mfrg} alt="Matic FreeGo 125"/>
             <Text fontWeight={"semibold"}>FreeGo 125</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 21.541.000 </Text>
          </GridItem>
           <GridItem>
             <Image src={mmm3} alt="Matic Mio M3"/>
             <Text fontWeight={"semibold"}>Mio M3</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 17.481.000 </Text>
          </GridItem>
           <GridItem>
             <Image src={mxr} alt="Matic Xride 125"/>
             <Text fontWeight={"semibold"}>Xride 125</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 18.366.000 </Text>
          </GridItem>
         </Grid>
+        </div>
+        <div id="sport">
+
         <Text
           paddingTop={"50px"}
           mb={{ lg: "10", base: "4" }}
@@ -200,21 +208,23 @@ const Collection = () => {
             <Image src={sr15a} alt="Sport R15M ABS"/>
             <Text fontWeight={"semibold"}>Grand Filano Lux</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 45.275.500 </Text>
          </GridItem>
           <GridItem>
             <Image src={sr15c} alt="Sport R15M Connected"/>
             <Text fontWeight={"semibold"}>Grand Filano Neo</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 40.630.000 </Text>
          </GridItem>
           <GridItem>
             <Image src={sxsr155} alt="Sport XSR 155m"/>
             <Text fontWeight={"semibold"}>Fazzio Lux</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 38.215.000 </Text>
          </GridItem>
         </Grid>
+        </div>
+        <div id="moped">
         <Text
           paddingTop={"50px"}
           mb={{ lg: "10", base: "4" }}
@@ -237,22 +247,22 @@ const Collection = () => {
             <Image src={mjz1} alt="Moped Jupiter Z1"/>
             <Text fontWeight={"semibold"}>Jupiter Z1</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 20.139.000 </Text>
          </GridItem>
           <GridItem>
             <Image src={mmxk} alt="Moped MX King 150"/>
             <Text fontWeight={"semibold"}>MX King 150</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 25.893.000 </Text>
          </GridItem>
           <GridItem>
             <Image src={mvega} alt="Moped Vega Force"/>
             <Text fontWeight={"semibold"}>Vega Force</Text>
             <Text>Harga Mulai Dari: </Text>
-            <Text>Rp. Nill </Text>
+            <Text>Rp. 18.584.000 </Text>
          </GridItem>
         </Grid>
-
+        </div>
       </Container>
     </div>
   );
