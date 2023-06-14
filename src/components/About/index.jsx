@@ -14,17 +14,17 @@ const About = () => {
           py={{ lg: "50px", base: "30px" }}
         >
           <Text fontSize="3xl" fontWeight="bold">
-            Lokasi Cabang:
+            Lokasi:
           </Text>
           <Grid
-            gridTemplateColumns={{
-              lg: "repeat(4, 1fr)",
-              base: "repeat(2, 1fr)",
-            }}
-            gap={'50px'}
-            textAlign={'center'}
+            // gridTemplateColumns={{
+            //   lg: "repeat(4, 1fr)",
+            //   base: "repeat(2, 1fr)",
+            // }}
+            gap={"50px"}
+            textAlign={"center"}
           >
-            <GridItem>
+            {/* <GridItem>
               <Image src={botania} alt="Botania" width={'200px'} height={'200px'}></Image>
               <Text fontSize="md">
                 Komplek Ruko Marbella 2 blok D6 no. 1,2 & 3 - BATAM
@@ -39,23 +39,35 @@ const About = () => {
               </Text>
               <br/>
               <Text fontSize="md">081278732817 </Text><Text>(Bagus Dwi Putra)</Text>
-            </GridItem>
+            </GridItem> */}
             <GridItem>
-              <Image src={btmcentre} alt="Batam Centre" width={'200px'} height={'200px'}></Image>
-              <Text fontSize="md">
-              Komplek Mahkota Raya A. 1-3A - BATAM
-              </Text>
-              <br/>
-              <Text fontSize="md">081278732817 </Text><Text>(Bagus Dwi Putra)</Text>
+              <Grid gridTemplateColumns={"1fr 1fr"}>
+                <GridItem>
+                  <Image
+                    src={btmcentre}
+                    alt="Batam Centre"
+                    width={"200px"}
+                    height={"200px"}
+                  ></Image>
+                </GridItem>
+                <GridItem>
+                  <Text fontSize="md">
+                    Komplek Mahkota Raya A. 1-3A - BATAM
+                  </Text>
+                  <br />
+                  <Text fontSize="md">081278732817 </Text>
+                  <Text>(Bagus Dwi Putra)</Text>
+                </GridItem>
+              </Grid>
             </GridItem>
-            <GridItem>
+            {/* <GridItem>
               <Image src={batubesar} alt="Batu Besar" width={'200px'} height={'200px'}></Image>
               <Text fontSize="md">
               Komplek Putra Mandiri Blok A NO 6-7 - BATAM
               </Text>
               <br/>
               <Text fontSize="md">081278732817 </Text><Text>(Bagus Dwi Putra)</Text>
-            </GridItem>
+            </GridItem> */}
           </Grid>
         </Container>
       </Box>

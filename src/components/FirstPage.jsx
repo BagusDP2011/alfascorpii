@@ -12,12 +12,12 @@ const FirstPage = () => {
         paddingX={{ lg: "64px", md: "16px" }}
       >
         {/* <Box  /> */}
-        <HStack alignSelf={"left"} spacing={{ sm: 2, md: 3, lg: 4 }}>
+        <HStack alignSelf={"center"} align={"center"} textAlign={"center"} spacing={{ base: 2, sm: 2, md: 3, lg: 4 }}>
           <Image
             src={bg}
             alt="toko"
             width={{ sm: "25%", md: '30%', lg: "50%" }}
-            height="60%"
+            height={{ sm: "25%", md: '30%', lg: "50%" }}
           />
 
           <Stack alignSelf="center" textAlign={"center"} spacing={{ sm: 2, md: 3, lg: 4 }}>
